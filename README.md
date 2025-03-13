@@ -1,6 +1,8 @@
 [![ENGINYRING](https://cdn.enginyring.com/img/logo_dark.png)](https://www.enginyring.com)
 # LibreNMS Automated Installer Script
- 
+
+> ⚠️ **WARNING!** This script automatically removes existing MySQL/MariaDB and Apache/Nginx installations during setup. Only use on a fresh system or one where you don't mind these services being reset!
+
 A bash script for fully automated installation of LibreNMS (master branch) on Ubuntu and Debian systems with integrated validation fixes.
 
 ## Features
